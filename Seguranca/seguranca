@@ -1,0 +1,58 @@
+Segurança
+
+- OWASP
+    - O Open Web Application Security Project ® (OWASP) é uma fundação sem fins 
+    lucrativos que trabalha para melhorar a segurança do software. Por meio de 
+    projetos de software de código aberto liderados pela comunidade, centenas 
+    de capítulos locais em todo o mundo, dezenas de milhares de membros e 
+    conferências educacionais e de treinamento líderes, a OWASP Foundation 
+    é a fonte para desenvolvedores e tecnólogos protegerem a web.
+
+    - Os 10 principais riscos de segurança de aplicativos da Web
+    https://owasp.org/www-project-top-ten/
+
+    - Vários vídeos no site relacionados a segurança
+
+    - Autenticação e Autorização (Quem pode acessar o que, quando acessou, quem acessou)
+
+- Integridade
+
+Cinco pilares
+    - Visibilidade
+    - Controle de acesso
+    - Gerenciamento de trafego
+    - Proteção de ameaças
+    - Confidencialidade e integridade
+
+API Academy
+ - Cursos gratuitos de segurança
+
+ Riscos a API
+ - Estrutura (tamanho de mensagem, formatação)
+ - Formato (payloads, imagens, audios, xml)
+ - Semântica (validação de schemma)
+
+ SLA
+ - 60% ataques internos usando credenciais internas de outras pessoas.
+ - Má utilização de pessoas
+ - Cotas de uso 
+ - Horário
+ - Monitoração
+
+Ataques de força bruta
+ - Modelos de autenticação (OAUTH)
+ - Tem que ter os métodos de segurança já conhecidos
+ - A partir do momento se vc tem uma definição de consumo é possível tratar
+ - Ter camadas com implemetação de segurança
+ - Monitoramento
+ - Gateway - eu consigo delimitar consumo 
+
+Contratos de Serviço
+ - Definir o quanto pode consumir
+ - O cliente tem que saber o por que não estará mais disponibilizado
+ - O quanto sua arquitetura vai aguentar o transacional
+ 
+
+ 
+
+

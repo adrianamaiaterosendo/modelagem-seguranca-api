@@ -1,0 +1,59 @@
+O que são APIs?
+
+- Application Programming Interface (Em português, significa Interface de Programação de Aplicações)
+
+- Habilitam a transformação digital.
+
+- Comunicação entre aplicações e entre os usuários.
+
+- Permitem as integrações entre os componentes de software.
+
+- Permitem reutilização de serviços.
+
+- Interface padronizada que habilita integração alavancando negócios.
+
+- Pensar em simplicidade para quem irá consumir.
+
+Modelagem
+
+- Aspectos:
+    - Rest != Restful
+    - Representação padronizada, verbos e métodos usados, URLs.
+    - Criação da interface
+
+- API Gateway
+    - Abstrair responsabilidades backend
+    - Ele faz como se fosse um proxy que chega até o microserviço
+    - Habilita de forma segura o consumo de suas APIs
+
+- Delimitando modelagem
+    - DDD
+    - Tratar a API como um produto
+    - API não pode fazer tudo, vazamento de domínio
+    - Fazer um desenho bem feito da API
+    - Possa ser reutilizada e fazer sentido dentro do negócio
+
+- Versionamento
+    - Tem que ter um motivador
+    - Depreciar recurso anterior
+    - Gestão das APIs (preciso saber quem está consumindo)
+    - Comunicação
+    - API Management
+    - Criar um plano de migração
+    - Muita incidência em versionamento é uma métrica para se considerar(pode ser contrato, fuga do negócio, etc)
+
+- Microservices e Microgateways
+    - Antigamente eram gateways gigantes
+    - Quando eu preciso de um serviço específico
+    - Não ser mais de que o necessário para a arquitetura
+
+
+
+
+
+
+
+
+
+
+
